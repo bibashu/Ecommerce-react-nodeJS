@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-avec-node-et-reactt",
+  "version": "1.0.0",
+  "description": "Mon projet avec node et react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
