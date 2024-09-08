@@ -26,7 +26,7 @@ app.use('/api/', messageRoute);
 
 // Connexion à MongoDB et démarrage du serveur
 mongoose
-  .connect("mongodb+srv://bibachu8:biba12398@e-commerceapi.m8ryk.mongodb.net/e-commerce?retryWrites=true&w=majority&appName=e-commerceAPI", { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect("mongodb+srv://bibachu8:biba12398@e-commerceapi.m8ryk.mongodb.net/e-commerce?retryWrites=true&w=majority&appName=e-commerceAPI")
   .then(() => {
     console.log("Connecté à la base de données MongoDB");
     app.listen(5000, () => {
